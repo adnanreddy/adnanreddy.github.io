@@ -1,8 +1,45 @@
-body {
-	background-color: black;
+* {
+	color: white;
 	font-family: Tahoma, sans-serif;
 }
 
-h1, p {
-	color: white;
+body {
+	background-color: black;
 }
+
+header {
+	margin-bottom: 24px;
+}
+
+footer {
+	margin-top: 24px;
+}
+
+.menu {
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+	}
+	li {
+		float:left;
+	}
+	li a {
+		display: block;
+		text-align: center;
+		text-decoration: none;
+		padding:6px;
+	}
+	
+	li a:hover{
+		background-color: tan;
+	}
+}
+
+.testimonial {
+	background-color: rgb(210,180,140,0.9);
+	margin:1;
+	padding: 1px;
+}
+

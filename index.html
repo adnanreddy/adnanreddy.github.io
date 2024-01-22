@@ -1,45 +1,57 @@
 <!DOCTYPE html>
-<!--
-	What is the site
-	What does it do
-	How can it help the reader
---> 
 
 <html lang="en">
+
 <head>
 	<link rel="stylesheet" href="styles.css"> 
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Adnan Reddy</title>
 </head>
+
 <body>
 	<header>
-		<nav class="menu">
-			<h1>Adnan Reddy</h1>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Journal</a></li>
-				<li><a href="#">Resume</a></li>
-			</ul>
-		</nav>
+			<h1 class="title"><a href="https://adnanreddy.github.io">Adnan Reddy</a></h1>
+			
+			<input type="checkbox" id="kebab">
+			<label for="kebab">
+				<div class="kebab-circle"></div>
+				<div class="kebab-circle"></div>
+				<div class="kebab-circle"></div>
+			</label>
+			
+			<div class = "menu">
+				<ul>
+					<li><a href="#">Writing</a></li>
+					<li><a href="#">Resume</a></li>
+				</ul>
+			</div>
 	</header>
-	<main>
-		<article>
-			<h3>Who am I?</h3>
 
-			<p>I'm an engineer based in Cleveland, OH. I work for an architectural engineering consulting firm, designing electrical systems for hospitals, theaters, laboratories and universities. I moved to Cleveland in 2013 after spending my early childhood in Birmingham, AL, and left only for a couple years to study at Ohio State. You'll notice most of the site is devoted to journal entries. Writing forces me to engage with experiences and media in an active, structured and reflective way. I hope it makes for interesting reading!</p>
+	<main><div class="main">
+		<article>	
+			<h2 class="small-caps">Who am I?</h2>
+
+			<p>I'm an engineer based in Cleveland, OH. I work for an architectural engineering consulting firm, designing electrical systems for hospitals, theaters, laboratories and universities. I moved to Cleveland after spending my early childhood in Birmingham, AL. I've left only to study at Ohio State, where I earned my B.S. in 2022.</p>
 		
 		</article>
-		<aside class="testimonial">
-			<p>
-				<q>I have strong confidence in [Adnan's] leadership abilities and [his] intensely focused, goal oriented mindset.</q>
-				<cite>President, MSA Ohio State 2020-21</cite>
-			</p>
+		
+		<aside>
+			<h2> What are other's saying?</h2>
+			<div class="testimonial">
+				<p><q>I have strong confidence in [Adnan's] leadership abilities and [his] intensely focused, goal oriented mindset.</q> <small>&mdash;&nbsp;President,&nbsp;MSA&nbsp;Ohio&nbsp;State&nbsp;2020-21</small></p>
+			</div>
+
+			<div class="testimonial">
+				<p><q>Quiet, silent, brooding type of guy...</q> <small>&mdash;&nbsp;Adnan's&nbsp;sister</small></p>
+			</div>
 		</aside>
-	</main>
-	<footer>
+	</div></main>
+
+	<footer><div class="footer">
 		<address><a href="mailto:adnanreddy.github.io@gmail.com">adnanreddy.github.io@gmail.com</a></address>
 		<p><small>&copy; 2024 Adnan Reddy</small></p>
-	</footer>
+	</div></footer>
 </body>
+
 </html>
